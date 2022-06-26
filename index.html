@@ -637,20 +637,26 @@
                     form__input--padding-center" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
                 </lable>
 
-                <div class="policy">
+                <div class="policy form__policy">
                     <input id="policy" 
                         type="checkbox" 
-                        class="modal-form-policy hidden" 
+                        class="policy__checkbox hidden" 
                         name="policy" 
                         value="accept-policy" />
-                    <label for="policy"  class="modal-policy-text">
+
+                    <label for="policy"  class="policy__text">
                         Oświadczam iż akceptuję&nbsp;
-                        <a href="#" class="policy-link">Regulamin</a>&nbsp;i&nbsp;
-                        <a href="#" class="policy-link">Politykę Prywatności.</a>
+                        <a href="#" class="policy__link">Regulamin</a>&nbsp;i&nbsp;
+                        <a href="#" class="policy__link">Politykę Prywatności.</a>
                     </label>
                 </div>   
                  
-                    <button type="submit" class="modal-btn__send">Wyślij</button>
+                    <button type="submit" class="
+                    btn 
+                    btn--size-horizontal
+                    btn--background-color-blue 
+                    modal__btn"
+                    >Wyślij</button>
             </form >
         </div>
     </div>
