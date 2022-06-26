@@ -557,7 +557,12 @@
                               placeholder="E-mail" />
                     </lable>
 
-                    <button type="submit" class="footer__btn">Zapisz się
+                    <button type="submit" class="
+                    btn btn--box-shadow 
+                    btn--color-white
+                    btn--background-color-blue 
+                    footer__btn
+                    ">Zapisz się
                         <svg class="footer-newsletter__icon">
                             <use href="./images/icons.svg#footer-icon-send"></use>
                         </svg>
@@ -570,7 +575,7 @@
     <!-- MODAL WINDOWS -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal--btn__exit" data-modal-close>
+            <button type="button" class="modal__btn-exit" data-modal-close>
                 <svg class="exit-icon">
                     <use href="./images/icons.svg#exit-icon"></use>
                 </svg>
@@ -578,42 +583,58 @@
     
             <h3 class="modal__title">Zostaw swoje dane w formularzu poniżej</h3>
 
-            <form class="modal__form" name="signup_form" autocmplete="on">               
+            <form class="form" name="signup_form" autocmplete="on">               
                 
-                <label class="modal__lable">
-                    <span class="modal__lable-titles">Imie</span>
-                    <div class="modal__wrap">
-                        <input class="modal__input" type="text" name="username" />
-                        <svg class="modal__icon">
+                <label class="form__lable">
+                    <span class="form__text">Imie</span>
+                    <div class="form__wrap">
+                        <input class="
+                        form__input
+                        form__input--padding-right 
+                        form__input--size-long-rectangle"
+                         type="text" name="username" />
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#modal-icon-person"></use>
                         </svg>
                     </div>
                 </label>
 
-                <label class="modal__lable">
-                    <span class="modal__lable-titles">Telefon</span>
-                    <div class="modal__wrap">
-                        <input class="modal__input" type="tel" name="phon_number"/>
-                        <svg class="modal__icon">
+                <label class="form__lable">
+                    <span class="form__text">Telefon</span>
+                    <div class="form__wrap">
+                        <input class="
+                        form__input
+                        form__input--padding-right 
+                        form__input--size-long-rectangle"
+                         type="tel" name="phon_number"/>
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#modal-icon-phon"></use>
                         </svg>
                     </div>
                    
                 </label>
 
-                <label class="modal__lable">
-                    <span class="modal__lable-titles">Email</span>
-                    <div class="modal__wrap">
-                        <input class="modal__input" type="email" name="email"/>
-                        <svg class="modal__icon">
+                <label class="form__lable">
+                    <span class="form__text">Email</span>
+                    <div class="form__wrap">
+                        <input class="
+                        form__input
+                        form__input--padding-right 
+                        form__input--size-long-rectangle"
+                         type="email" name="email"/>
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#modal-icon-envelope"></use>
                         </svg>
                     </div>
                 </label>
 
-                <label class="modal__lable">
-                    <span class="modal__lable-titles">Komentarz</span>
-                    <textarea class="modal__textare" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+                <label class="form__lable">
+                    <span class="form__text">Komentarz</span>
+                    <textarea class="
+                    form__input 
+                    form__input--size-rectangle 
+                    form__input--display
+                    form__input--padding-center" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
                 </lable>
 
                 <div class="policy">
