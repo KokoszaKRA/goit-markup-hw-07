@@ -1,38 +1,33 @@
-.customers-logo{
+.customers{
+    display: flex;
+    justify-content: space-between;
+  
+  
   &__link{
     align-items: center;
     justify-content: center;
     display: flex;
     width: 170px;
     height: 92px;
-    
-
-  }
-  &--link{
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
+    fill: var(--color-icon);
+    border: 1px solid var(--color-icon);
     box-sizing: border-box;
     border-radius: 4px;
   
-    transition-property: fill, border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  
   &__link:hover,
   &__link:focus{
     fill: var(--color-blue);
     border: 1px solid var(--color-blue);
   }
-
-  &__svg{
+  
+  &__logo{
     width: 106px;
     height: 60px;
   }
 }
-
-
-
-
-
-
+  
