@@ -62,13 +62,14 @@
         }
         /*=========== END ICON SOCIAL TEAM ============ */  
         /*=========== ICON SOCIAL FOOTER ============ */
+        
         &--background-color-dark{
           background-color: #ffffff10;
-        }
-        
-        &--background-color-dark:hover,
-        &--background-color-dark:focus {
-          background-color: var(--color-blue);
+          
+          &--background-color-dark:hover,
+          &--background-color-dark:focus {
+            background-color: var(--color-blue);
+          }
         }
     }
 }
