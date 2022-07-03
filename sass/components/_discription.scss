@@ -25,9 +25,9 @@
         line-height: 1.714;
         letter-spacing: 0.03em;
         display: block;
-    }
-    
-    &__text--color-grey{
-        color: var(--second-color);
+        
+        &--color-grey{
+            color: var(--second-color);
+        }
     }
 }
