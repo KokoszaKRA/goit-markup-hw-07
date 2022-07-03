@@ -22,19 +22,17 @@
     }
 
     &-address{
-
         &__item:not(:last-child) {
             margin-bottom: 9px;
-    }
-    
-    
-    &__link {
-        display: block;
-        width: 264px;
-        font-size: 14px;
-        line-height: 1.5;
-        letter-spacing: 0.03em;
-    }
+        }        
+        
+        &__link {
+            display: block;
+            width: 264px;
+            font-size: 14px;
+            line-height: 1.5;
+            letter-spacing: 0.03em;
+        }
     }   
     
 

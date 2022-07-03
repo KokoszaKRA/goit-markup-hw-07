@@ -6,12 +6,15 @@
   /* outline: 2px dashed #f44336; */
 }
 
-.section-header .container{
-  display: flex;
-  align-items: center;
-  /* outline: 2px dashed rgb(37, 190, 37); */
-}
+.section{
 
-.section-footer .container{
-  display: flex;
+  &-header .container{
+    display: flex;
+    align-items: center;
+    /* outline: 2px dashed rgb(37, 190, 37); */
+  }
+  
+  &-footer .container{
+    display: flex;
+  }
 }

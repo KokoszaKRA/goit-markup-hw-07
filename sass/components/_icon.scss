@@ -1,93 +1,90 @@
 /*=================== ICON =======================*/
 /*=================== HEADRR ICON ================*/
-.header-address__icon{
+.header-address{
+  &__icon{
     display: inline-block;
-    fill: currentColor;
-    margin-right: 10px;
+  fill: currentColor;
+  margin-right: 10px;
   }
-  
-  .header-address__envelope{
+
+  &__envelope{
     width: 16px;
     height: 12px;
   }
-  
-  .header-address__phone{
+
+  &__phone{
     width: 12px;
     height: 16px;
   }
-  
-  .discription__icon{
-    max-width: 270px;
-    width: 100%;
-    max-height: 120px;
-    height: 100%;
-  
-    margin-bottom: 30px;
-  }
-  
+} 
   /*========== END HEADRR ICON ==========*/
-  /*============ SOCIAL ICON =============*/
-  
-  
-  .social-icon{
+  /*============ SOCIAL ICON =============*/  
+.social-icon{
     display: flex;
     justify-content: center;
-  }
-  
-  .social-icon__icon{
-    width: 20px;
-    height: 20px;
-  }
-  
-  .social-icon__link{
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-  
-    transition: 
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .social-icon__item:not(:last-child){
-    margin-right: 10px;
-  }
-  /*============ END SOCIAL ICON =============*/
-  /*=========== ICON SOCIAL TEAM ============ */
-  .social-icon__link--fill-grey{
-  fill:var(--color-icon);
-  }
-  
-  .social-icon__link--fill-with{
-  fill:var(--color-white);
-  }
-  
-  .social-icon__link--action-color-blue:hover,
-  .social-icon__link--action-color-blue:focus {
-    fill: var(--color-white);
-    background-color: var(--color-blue);
-  }
-  /*=========== END ICON SOCIAL TEAM ============ */
-  
-  
-  /*=========== ICON SOCIAL FOOTER ============ */
-  .social-icon__link--background-color-dark{
-    background-color: #ffffff10;
-  }
-  
-  .social-icon__link--background-color-dark:hover,
-  .social-icon__link--background-color-dark:focus {
-    background-color: var(--color-blue);
-  }
+    
+    &__icon{
+      width: 20px;
+      height: 20px;
+    }
 
-  .exit-icon{
-    width: 11px;
-    height: 11px;
-  }
+    &__item:not(:last-child){
+      margin-right: 10px;
+    }
 
+    &__link{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      
+      transition: 
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+      
+        /*============ END SOCIAL ICON =============*/
+        /*=========== ICON SOCIAL TEAM ============ */
+        &--fill-grey{
+          fill:var(--color-icon);
+        }
+        
+        &--fill-with{
+          fill:var(--color-white);
+        }
+        
+        &--action-color-blue:hover,
+        &--action-color-blue:focus {
+          fill: var(--color-white);
+          background-color: var(--color-blue);
+        }
+        /*=========== END ICON SOCIAL TEAM ============ */  
+        /*=========== ICON SOCIAL FOOTER ============ */
+        &--background-color-dark{
+          background-color: #ffffff10;
+        }
+        
+        &--background-color-dark:hover,
+        &--background-color-dark:focus {
+          background-color: var(--color-blue);
+        }
+    }
+}
+  
+.discription__icon{
+  max-width: 270px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
 
+  margin-bottom: 30px;
+}
+
+.exit-icon{
+  width: 11px;
+  height: 11px;
+}
   /*=========== END ICON SOCIAL FOOTER ============ */
   /*============================ END ICON =======================*/

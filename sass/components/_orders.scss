@@ -14,24 +14,27 @@
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--color-white);
-    }
-    
-    &__title--position-center{
-        margin-left: auto;
-        margin-right: auto;
+        
+        &--position-center{
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
-    &--background-anthracite{
-        background-color: var(--color-background);
-    }
-    
-    &--background-photo{
-        background-image: 
-        linear-gradient( rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)),
-        url(../images/order-foto/Img.jpg);
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
+    &--background{
+
+        &-anthracite{
+            background-color: var(--color-background);
+        }
+        
+        &-photo{
+            background-image: 
+            linear-gradient( rgba(47, 48, 58, 0.4), 
+            rgba(47, 48, 58, 0.4)),
+            url(../images/order-foto/Img.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
     }
 }
